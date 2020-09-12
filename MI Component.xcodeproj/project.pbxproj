@@ -16,6 +16,12 @@
 		D2609E8A25048FC100E8E90A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2609E8825048FC100E8E90A /* LaunchScreen.storyboard */; };
 		D2609E8D25048FC100E8E90A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609E8C25048FC100E8E90A /* main.m */; };
 		D2609E9725048FC100E8E90A /* MI_ComponentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609E9625048FC100E8E90A /* MI_ComponentTests.m */; };
+		D2609EA42504900A00E8E90A /* BottomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609EA32504900A00E8E90A /* BottomSheet.m */; };
+		D2609EA52504900A00E8E90A /* BottomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609EA32504900A00E8E90A /* BottomSheet.m */; };
+		D2785D39250632E100C0273F /* BottomSheetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2785D38250632E100C0273F /* BottomSheetManager.m */; };
+		D2785D3A250632E100C0273F /* BottomSheetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2785D38250632E100C0273F /* BottomSheetManager.m */; };
+		D2C0281E250499E000CF7704 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0281D250499E000CF7704 /* UIView+Additions.m */; };
+		D2C0281F250499E000CF7704 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0281D250499E000CF7704 /* UIView+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		D2609E9225048FC100E8E90A /* MI ComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MI ComponentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2609E9625048FC100E8E90A /* MI_ComponentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MI_ComponentTests.m; sourceTree = "<group>"; };
 		D2609E9825048FC100E8E90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2609EA22504900A00E8E90A /* BottomSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomSheet.h; sourceTree = "<group>"; };
+		D2609EA32504900A00E8E90A /* BottomSheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomSheet.m; sourceTree = "<group>"; };
+		D2785D37250632E100C0273F /* BottomSheetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomSheetManager.h; sourceTree = "<group>"; };
+		D2785D38250632E100C0273F /* BottomSheetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomSheetManager.m; sourceTree = "<group>"; };
+		D2C0281C250499E000CF7704 /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		D2C0281D250499E000CF7704 /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2200DEA250C6720007DC99E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2609E7D25048FBF00E8E90A /* ViewController.h */,
+				D2609E7E25048FBF00E8E90A /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D2609E6B25048FBF00E8E90A = {
 			isa = PBXGroup;
 			children = (
@@ -86,12 +107,13 @@
 		D2609E7625048FBF00E8E90A /* MI Component */ = {
 			isa = PBXGroup;
 			children = (
+				D2200DEA250C6720007DC99E /* ViewControllers */,
+				D2C02813250498EF00CF7704 /* Extensions (Category) */,
+				D2609EA125048FF000E8E90A /* Components */,
 				D2609E7725048FBF00E8E90A /* AppDelegate.h */,
 				D2609E7825048FBF00E8E90A /* AppDelegate.m */,
 				D2609E7A25048FBF00E8E90A /* SceneDelegate.h */,
 				D2609E7B25048FBF00E8E90A /* SceneDelegate.m */,
-				D2609E7D25048FBF00E8E90A /* ViewController.h */,
-				D2609E7E25048FBF00E8E90A /* ViewController.m */,
 				D2609E8025048FBF00E8E90A /* Main.storyboard */,
 				D2609E8625048FC100E8E90A /* Assets.xcassets */,
 				D2609E8825048FC100E8E90A /* LaunchScreen.storyboard */,
@@ -109,6 +131,34 @@
 				D2609E9825048FC100E8E90A /* Info.plist */,
 			);
 			path = "MI ComponentTests";
+			sourceTree = "<group>";
+		};
+		D2609EA125048FF000E8E90A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D2609EA62504976400E8E90A /* BottomSheet */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D2609EA62504976400E8E90A /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				D2609EA22504900A00E8E90A /* BottomSheet.h */,
+				D2609EA32504900A00E8E90A /* BottomSheet.m */,
+				D2785D37250632E100C0273F /* BottomSheetManager.h */,
+				D2785D38250632E100C0273F /* BottomSheetManager.m */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		D2C02813250498EF00CF7704 /* Extensions (Category) */ = {
+			isa = PBXGroup;
+			children = (
+				D2C0281C250499E000CF7704 /* UIView+Additions.h */,
+				D2C0281D250499E000CF7704 /* UIView+Additions.m */,
+			);
+			path = "Extensions (Category)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2785D39250632E100C0273F /* BottomSheetManager.m in Sources */,
 				D2609E8D25048FC100E8E90A /* main.m in Sources */,
 				D2609E7F25048FBF00E8E90A /* ViewController.m in Sources */,
+				D2609EA42504900A00E8E90A /* BottomSheet.m in Sources */,
 				D2609E8525048FBF00E8E90A /* MI_Component.xcdatamodeld in Sources */,
 				D2609E7925048FBF00E8E90A /* AppDelegate.m in Sources */,
+				D2C0281E250499E000CF7704 /* UIView+Additions.m in Sources */,
 				D2609E7C25048FBF00E8E90A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2785D3A250632E100C0273F /* BottomSheetManager.m in Sources */,
+				D2C0281F250499E000CF7704 /* UIView+Additions.m in Sources */,
+				D2609EA52504900A00E8E90A /* BottomSheet.m in Sources */,
 				D2609E9725048FC100E8E90A /* MI_ComponentTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
