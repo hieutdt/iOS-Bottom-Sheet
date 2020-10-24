@@ -1,8 +1,8 @@
 //
-//  CameraViewController.h
+//  THImageZoomView.h
 //  MI Component
 //
-//  Created by HieuTDT on 9/26/20.
+//  Created by HieuTDT on 10/24/20.
 //  Copyright © 2020 HieuTDT. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CameraViewController : UIViewController
+@interface THImageZoomView : UIScrollView
 
 @end
 

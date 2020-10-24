@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "CameraViewController.h"
 #import "THCameraViewController.h"
+#import "THPreviewImageViewController.h"
 
 #import "VerticalIconTextButton.h"
 #import "BottomSheetManager.h"
@@ -50,7 +50,11 @@
 }
 
 - (IBAction)showCameraButtonTapped:(id)sender {
-    THCameraViewController *vc = [[THCameraViewController alloc] init];
+//    THCameraViewController *vc = [[THCameraViewController alloc] init];
+//    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+//
+//    [self presentViewController:vc animated:YES completion:nil];
+    THPreviewImageViewController *vc = [THPreviewImageViewController new];
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
     
     [self presentViewController:vc animated:YES completion:nil];

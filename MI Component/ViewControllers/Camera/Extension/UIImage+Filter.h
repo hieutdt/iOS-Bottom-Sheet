@@ -25,6 +25,8 @@ static NSString *kFilterTypeTransfer = @"CIPhotoEffectTransfer";
 
 - (UIImage *)fixOrientation;
 
+- (UIImage *)changeImageOrientation:(UIImageOrientation)orientation;
+
 @end
 
 NS_ASSUME_NONNULL_END

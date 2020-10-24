@@ -44,4 +44,16 @@
     return normalizeImage;
 }
 
+- (UIImage *)changeImageOrientation:(UIImageOrientation)orientation {
+    if (self.imageOrientation == orientation) {
+        return self;
+    }
+    
+    UIImage *fixedOrientationImage = [self fixOrientation];
+
+    return [UIImage imageWithCGImage:fixedOrientationImage.CGImage
+                               scale:fixedOrientationImage.scale
+                         orientation:orientation];
+}
+
 @end

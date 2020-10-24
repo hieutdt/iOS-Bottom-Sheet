@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Medium-32926-Mercedes-BenzCLACoup.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
