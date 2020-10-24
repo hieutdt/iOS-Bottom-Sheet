@@ -7,10 +7,17 @@
 //
 
 #import "ViewController.h"
+#import "CameraViewController.h"
+#import "THCameraViewController.h"
 
+#import "VerticalIconTextButton.h"
 #import "BottomSheetManager.h"
+#import "SelectItemModel.h"
+#import "SelectItemCollection.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet SelectItemCollection *collectionView;
 
 @end
 
@@ -19,6 +26,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.systemBlueColor;
+    
+    NSMutableArray *viewModels = [[NSMutableArray alloc] init];
+    for (int i = 0; i < 10; i++) {
+        SelectItemModel *model = [[SelectItemModel alloc] init];
+        [model setTitle:@"Tôn hiếu"];
+        [model setNormalImageName:@"4 cho"];
+        [model setSelectedImageName:@"4 cho selected"];
+        
+        [viewModels addObject:model];
+    }
+    
+    [self.collectionView setViewModels:viewModels];
 }
 
 - (IBAction)showBottomSheet:(id)sender {
@@ -30,5 +49,11 @@
                                                   canExpanded:YES];
 }
 
+- (IBAction)showCameraButtonTapped:(id)sender {
+    THCameraViewController *vc = [[THCameraViewController alloc] init];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end

@@ -1,0 +1,6 @@
+framework module Pods_MI_Component {
+  umbrella header "Pods-MI Component-umbrella.h"
+
+  export *
+  module * { export * }
+}

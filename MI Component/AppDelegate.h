@@ -13,6 +13,8 @@
 
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
+@property (nonatomic, assign) UIInterfaceOrientationMask oritentationLock;
+
 - (void)saveContext;
 
 

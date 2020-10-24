@@ -15,11 +15,23 @@
 @implementation AppDelegate
 
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _oritentationLock = UIInterfaceOrientationMaskAll;
+    }
+    return self;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
 }
 
+- (UIInterfaceOrientationMask)application:(UIApplication *)application
+  supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return self.oritentationLock;
+}
 
 #pragma mark - UISceneSession lifecycle
 

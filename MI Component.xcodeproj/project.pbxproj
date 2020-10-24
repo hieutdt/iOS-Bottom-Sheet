@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EA5A52E0D835E0B1BB5773E /* Pods_MI_Component.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243641118FE60046277EB39B /* Pods_MI_Component.framework */; };
+		AC58AAAB39536350B3E7A9DF /* Pods_MI_ComponentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA075C2B15FEF0DA10EC6F5E /* Pods_MI_ComponentTests.framework */; };
+		D225F4902515C8F700065C5A /* VerticalIconTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D225F48F2515C8F700065C5A /* VerticalIconTextButton.m */; };
+		D2275D89252AED2F0015F51C /* THPreviewImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2275D87252AED2F0015F51C /* THPreviewImageViewController.m */; };
+		D2275D8B252AED2F0015F51C /* PreviewImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2275D88252AED2F0015F51C /* PreviewImageViewController.xib */; };
+		D2275D8C252AED2F0015F51C /* PreviewImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2275D88252AED2F0015F51C /* PreviewImageViewController.xib */; };
+		D2494C702543CCDB000CF37F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C562543CCDB000CF37F /* Constants.m */; };
+		D2494C712543CCDB000CF37F /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C572543CCDB000CF37F /* CaptureSessionManager.m */; };
+		D2494C722543CCDB000CF37F /* Cool Camera Mockup.sketch in Resources */ = {isa = PBXBuildFile; fileRef = D2494C5B2543CCDB000CF37F /* Cool Camera Mockup.sketch */; };
+		D2494C732543CCDB000CF37F /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C5D2543CCDB000CF37F /* CameraStyleKitClass.m */; };
+		D2494C742543CCDB000CF37F /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C602543CCDB000CF37F /* CameraDismissButton.m */; };
+		D2494C752543CCDB000CF37F /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C612543CCDB000CF37F /* CameraFocalReticule.m */; };
+		D2494C762543CCDB000CF37F /* CameraShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C662543CCDB000CF37F /* CameraShutterButton.m */; };
+		D2494C772543CCDB000CF37F /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C672543CCDB000CF37F /* CameraToggleButton.m */; };
+		D2494C782543CCDB000CF37F /* LaunchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C682543CCDB000CF37F /* LaunchCameraButton.m */; };
+		D2494C792543CCDB000CF37F /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C6B2543CCDB000CF37F /* CameraFlashButton.m */; };
+		D2494C7A2543CCDB000CF37F /* PaintCodeFile.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = D2494C6C2543CCDB000CF37F /* PaintCodeFile.pcvd */; };
+		D2494C7B2543CCDB000CF37F /* CameraSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C6E2543CCDB000CF37F /* CameraSessionView.m */; };
+		D2494C8F2543CDA6000CF37F /* THCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2494C8E2543CDA6000CF37F /* THCameraViewController.m */; };
+		D25076372544008300E261C3 /* UIImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25076362544008300E261C3 /* UIImageFilter.swift */; };
+		D250763C2544041500E261C3 /* UIImage+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = D250763B2544041500E261C3 /* UIImage+Filter.m */; };
 		D2609E7925048FBF00E8E90A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609E7825048FBF00E8E90A /* AppDelegate.m */; };
 		D2609E7C25048FBF00E8E90A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609E7B25048FBF00E8E90A /* SceneDelegate.m */; };
 		D2609E7F25048FBF00E8E90A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609E7E25048FBF00E8E90A /* ViewController.m */; };
@@ -18,10 +39,22 @@
 		D2609E9725048FC100E8E90A /* MI_ComponentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609E9625048FC100E8E90A /* MI_ComponentTests.m */; };
 		D2609EA42504900A00E8E90A /* BottomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609EA32504900A00E8E90A /* BottomSheet.m */; };
 		D2609EA52504900A00E8E90A /* BottomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D2609EA32504900A00E8E90A /* BottomSheet.m */; };
+		D26786D8253AB0E9008C08BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26786D7253AB0E9008C08BB /* SecondViewController.swift */; };
+		D2737442251F4DE10066D343 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2737440251F4DE10066D343 /* CameraViewController.m */; };
+		D2737443251F4DE10066D343 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2737440251F4DE10066D343 /* CameraViewController.m */; };
+		D2737444251F4DE10066D343 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2737441251F4DE10066D343 /* CameraViewController.xib */; };
+		D2737445251F4DE10066D343 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2737441251F4DE10066D343 /* CameraViewController.xib */; };
 		D2785D39250632E100C0273F /* BottomSheetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2785D38250632E100C0273F /* BottomSheetManager.m */; };
 		D2785D3A250632E100C0273F /* BottomSheetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2785D38250632E100C0273F /* BottomSheetManager.m */; };
 		D2C0281E250499E000CF7704 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0281D250499E000CF7704 /* UIView+Additions.m */; };
 		D2C0281F250499E000CF7704 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0281D250499E000CF7704 /* UIView+Additions.m */; };
+		D2C0A87F2543C2E70015F2D8 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C0A87E2543C2E70015F2D8 /* AppUtility.swift */; };
+		D2D4D8CA2515B9C20069FC0D /* SelectItemCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D8C82515B9C20069FC0D /* SelectItemCollectionCell.m */; };
+		D2D4D8CB2515B9C20069FC0D /* SelectItemCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D8C82515B9C20069FC0D /* SelectItemCollectionCell.m */; };
+		D2D4D8D42515BAF70069FC0D /* SelectItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D8D32515BAF70069FC0D /* SelectItemModel.m */; };
+		D2D4D8D52515BAF70069FC0D /* SelectItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D8D32515BAF70069FC0D /* SelectItemModel.m */; };
+		D2D4D8DC2515C3150069FC0D /* SelectItemCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D8DB2515C3150069FC0D /* SelectItemCollection.m */; };
+		D2D4D8DD2515C3150069FC0D /* SelectItemCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D4D8DB2515C3150069FC0D /* SelectItemCollection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243641118FE60046277EB39B /* Pods_MI_Component.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MI_Component.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8DFFC64C275DA5E5D98737 /* Pods-MI ComponentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MI ComponentTests.release.xcconfig"; path = "Target Support Files/Pods-MI ComponentTests/Pods-MI ComponentTests.release.xcconfig"; sourceTree = "<group>"; };
+		43309D62A0C722F490561949 /* Pods-MI ComponentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MI ComponentTests.debug.xcconfig"; path = "Target Support Files/Pods-MI ComponentTests/Pods-MI ComponentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DCCA0ABFCBA8F2EABCEEC2C /* Pods-MI Component.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MI Component.debug.xcconfig"; path = "Target Support Files/Pods-MI Component/Pods-MI Component.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD0183B8A0FFFAFF1ADD0CB /* Pods-MI Component.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MI Component.release.xcconfig"; path = "Target Support Files/Pods-MI Component/Pods-MI Component.release.xcconfig"; sourceTree = "<group>"; };
+		D225F48E2515C8F700065C5A /* VerticalIconTextButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalIconTextButton.h; sourceTree = "<group>"; };
+		D225F48F2515C8F700065C5A /* VerticalIconTextButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalIconTextButton.m; sourceTree = "<group>"; };
+		D2275D86252AED2F0015F51C /* THPreviewImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THPreviewImageViewController.h; sourceTree = "<group>"; };
+		D2275D87252AED2F0015F51C /* THPreviewImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THPreviewImageViewController.m; sourceTree = "<group>"; };
+		D2275D88252AED2F0015F51C /* PreviewImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewImageViewController.xib; sourceTree = "<group>"; };
+		D2494C562543CCDB000CF37F /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		D2494C572543CCDB000CF37F /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		D2494C582543CCDB000CF37F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D2494C592543CCDB000CF37F /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		D2494C5B2543CCDB000CF37F /* Cool Camera Mockup.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cool Camera Mockup.sketch"; sourceTree = "<group>"; };
+		D2494C5D2543CCDB000CF37F /* CameraStyleKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraStyleKitClass.m; sourceTree = "<group>"; };
+		D2494C5E2543CCDB000CF37F /* CameraStyleKitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraStyleKitClass.h; sourceTree = "<group>"; };
+		D2494C602543CCDB000CF37F /* CameraDismissButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDismissButton.m; sourceTree = "<group>"; };
+		D2494C612543CCDB000CF37F /* CameraFocalReticule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFocalReticule.m; sourceTree = "<group>"; };
+		D2494C622543CCDB000CF37F /* LaunchCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchCameraButton.h; sourceTree = "<group>"; };
+		D2494C632543CCDB000CF37F /* CameraToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraToggleButton.h; sourceTree = "<group>"; };
+		D2494C642543CCDB000CF37F /* CameraShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraShutterButton.h; sourceTree = "<group>"; };
+		D2494C652543CCDB000CF37F /* CameraFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFlashButton.h; sourceTree = "<group>"; };
+		D2494C662543CCDB000CF37F /* CameraShutterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraShutterButton.m; sourceTree = "<group>"; };
+		D2494C672543CCDB000CF37F /* CameraToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraToggleButton.m; sourceTree = "<group>"; };
+		D2494C682543CCDB000CF37F /* LaunchCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchCameraButton.m; sourceTree = "<group>"; };
+		D2494C692543CCDB000CF37F /* CameraFocalReticule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFocalReticule.h; sourceTree = "<group>"; };
+		D2494C6A2543CCDB000CF37F /* CameraDismissButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDismissButton.h; sourceTree = "<group>"; };
+		D2494C6B2543CCDB000CF37F /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFlashButton.m; sourceTree = "<group>"; };
+		D2494C6C2543CCDB000CF37F /* PaintCodeFile.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = PaintCodeFile.pcvd; sourceTree = "<group>"; };
+		D2494C6E2543CCDB000CF37F /* CameraSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraSessionView.m; sourceTree = "<group>"; };
+		D2494C6F2543CCDB000CF37F /* CameraSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSessionView.h; sourceTree = "<group>"; };
+		D2494C8D2543CDA6000CF37F /* THCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THCameraViewController.h; sourceTree = "<group>"; };
+		D2494C8E2543CDA6000CF37F /* THCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THCameraViewController.m; sourceTree = "<group>"; };
+		D25076362544008300E261C3 /* UIImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFilter.swift; sourceTree = "<group>"; };
+		D250763A2544041500E261C3 /* UIImage+Filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Filter.h"; sourceTree = "<group>"; };
+		D250763B2544041500E261C3 /* UIImage+Filter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Filter.m"; sourceTree = "<group>"; };
 		D2609E7425048FBF00E8E90A /* MI Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MI Component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2609E7725048FBF00E8E90A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2609E7825048FBF00E8E90A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,10 +123,23 @@
 		D2609E9825048FC100E8E90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2609EA22504900A00E8E90A /* BottomSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomSheet.h; sourceTree = "<group>"; };
 		D2609EA32504900A00E8E90A /* BottomSheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomSheet.m; sourceTree = "<group>"; };
+		D26786D6253AB0E9008C08BB /* MI Component-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MI Component-Bridging-Header.h"; sourceTree = "<group>"; };
+		D26786D7253AB0E9008C08BB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D273743F251F4DE10066D343 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		D2737440251F4DE10066D343 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		D2737441251F4DE10066D343 /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 		D2785D37250632E100C0273F /* BottomSheetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomSheetManager.h; sourceTree = "<group>"; };
 		D2785D38250632E100C0273F /* BottomSheetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomSheetManager.m; sourceTree = "<group>"; };
 		D2C0281C250499E000CF7704 /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		D2C0281D250499E000CF7704 /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		D2C0A87E2543C2E70015F2D8 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		D2D4D8C72515B9C20069FC0D /* SelectItemCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectItemCollectionCell.h; sourceTree = "<group>"; };
+		D2D4D8C82515B9C20069FC0D /* SelectItemCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectItemCollectionCell.m; sourceTree = "<group>"; };
+		D2D4D8D22515BAF70069FC0D /* SelectItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectItemModel.h; sourceTree = "<group>"; };
+		D2D4D8D32515BAF70069FC0D /* SelectItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectItemModel.m; sourceTree = "<group>"; };
+		D2D4D8DA2515C3150069FC0D /* SelectItemCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectItemCollection.h; sourceTree = "<group>"; };
+		D2D4D8DB2515C3150069FC0D /* SelectItemCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectItemCollection.m; sourceTree = "<group>"; };
+		DA075C2B15FEF0DA10EC6F5E /* Pods_MI_ComponentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MI_ComponentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA5A52E0D835E0B1BB5773E /* Pods_MI_Component.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,19 +155,139 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC58AAAB39536350B3E7A9DF /* Pods_MI_ComponentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63C02483D3C71E90C1AFE560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				243641118FE60046277EB39B /* Pods_MI_Component.framework */,
+				DA075C2B15FEF0DA10EC6F5E /* Pods_MI_ComponentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96CF99334CBD73B329C4F15C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DCCA0ABFCBA8F2EABCEEC2C /* Pods-MI Component.debug.xcconfig */,
+				ADD0183B8A0FFFAFF1ADD0CB /* Pods-MI Component.release.xcconfig */,
+				43309D62A0C722F490561949 /* Pods-MI ComponentTests.debug.xcconfig */,
+				2D8DFFC64C275DA5E5D98737 /* Pods-MI ComponentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D2200DEA250C6720007DC99E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D2494C7E2543CD48000CF37F /* Camera */,
 				D2609E7D25048FBF00E8E90A /* ViewController.h */,
 				D2609E7E25048FBF00E8E90A /* ViewController.m */,
+				D273743F251F4DE10066D343 /* CameraViewController.h */,
+				D2737440251F4DE10066D343 /* CameraViewController.m */,
+				D2737441251F4DE10066D343 /* CameraViewController.xib */,
+				D2275D88252AED2F0015F51C /* PreviewImageViewController.xib */,
+				D26786D7253AB0E9008C08BB /* SecondViewController.swift */,
+				D26786D6253AB0E9008C08BB /* MI Component-Bridging-Header.h */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D225F48D2515C8E900065C5A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D225F48E2515C8F700065C5A /* VerticalIconTextButton.h */,
+				D225F48F2515C8F700065C5A /* VerticalIconTextButton.m */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		D2494C542543CCDB000CF37F /* CustomizableCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D2494C552543CCDB000CF37F /* Model Classes */,
+				D2494C5A2543CCDB000CF37F /* Graphical Assets */,
+				D2494C6D2543CCDB000CF37F /* Camera View */,
+			);
+			path = CustomizableCamera;
+			sourceTree = "<group>";
+		};
+		D2494C552543CCDB000CF37F /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D2494C562543CCDB000CF37F /* Constants.m */,
+				D2494C572543CCDB000CF37F /* CaptureSessionManager.m */,
+				D2494C582543CCDB000CF37F /* Constants.h */,
+				D2494C592543CCDB000CF37F /* CaptureSessionManager.h */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		D2494C5A2543CCDB000CF37F /* Graphical Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D2494C5B2543CCDB000CF37F /* Cool Camera Mockup.sketch */,
+				D2494C5C2543CCDB000CF37F /* UI Assets */,
+				D2494C5F2543CCDB000CF37F /* CameraViewComponents */,
+				D2494C6C2543CCDB000CF37F /* PaintCodeFile.pcvd */,
+			);
+			path = "Graphical Assets";
+			sourceTree = "<group>";
+		};
+		D2494C5C2543CCDB000CF37F /* UI Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D2494C5D2543CCDB000CF37F /* CameraStyleKitClass.m */,
+				D2494C5E2543CCDB000CF37F /* CameraStyleKitClass.h */,
+			);
+			path = "UI Assets";
+			sourceTree = "<group>";
+		};
+		D2494C5F2543CCDB000CF37F /* CameraViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D2494C602543CCDB000CF37F /* CameraDismissButton.m */,
+				D2494C612543CCDB000CF37F /* CameraFocalReticule.m */,
+				D2494C622543CCDB000CF37F /* LaunchCameraButton.h */,
+				D2494C632543CCDB000CF37F /* CameraToggleButton.h */,
+				D2494C642543CCDB000CF37F /* CameraShutterButton.h */,
+				D2494C652543CCDB000CF37F /* CameraFlashButton.h */,
+				D2494C662543CCDB000CF37F /* CameraShutterButton.m */,
+				D2494C672543CCDB000CF37F /* CameraToggleButton.m */,
+				D2494C682543CCDB000CF37F /* LaunchCameraButton.m */,
+				D2494C692543CCDB000CF37F /* CameraFocalReticule.h */,
+				D2494C6A2543CCDB000CF37F /* CameraDismissButton.h */,
+				D2494C6B2543CCDB000CF37F /* CameraFlashButton.m */,
+			);
+			path = CameraViewComponents;
+			sourceTree = "<group>";
+		};
+		D2494C6D2543CCDB000CF37F /* Camera View */ = {
+			isa = PBXGroup;
+			children = (
+				D2494C6E2543CCDB000CF37F /* CameraSessionView.m */,
+				D2494C6F2543CCDB000CF37F /* CameraSessionView.h */,
+			);
+			path = "Camera View";
+			sourceTree = "<group>";
+		};
+		D2494C7E2543CD48000CF37F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D2494C8D2543CDA6000CF37F /* THCameraViewController.h */,
+				D2494C8E2543CDA6000CF37F /* THCameraViewController.m */,
+				D2275D86252AED2F0015F51C /* THPreviewImageViewController.h */,
+				D2275D87252AED2F0015F51C /* THPreviewImageViewController.m */,
+				D25076362544008300E261C3 /* UIImageFilter.swift */,
+				D250763A2544041500E261C3 /* UIImage+Filter.h */,
+				D250763B2544041500E261C3 /* UIImage+Filter.m */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 		D2609E6B25048FBF00E8E90A = {
@@ -92,6 +296,8 @@
 				D2609E7625048FBF00E8E90A /* MI Component */,
 				D2609E9525048FC100E8E90A /* MI ComponentTests */,
 				D2609E7525048FBF00E8E90A /* Products */,
+				96CF99334CBD73B329C4F15C /* Pods */,
+				63C02483D3C71E90C1AFE560 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +313,7 @@
 		D2609E7625048FBF00E8E90A /* MI Component */ = {
 			isa = PBXGroup;
 			children = (
+				D2C0A8762543C0280015F2D8 /* Utils */,
 				D2200DEA250C6720007DC99E /* ViewControllers */,
 				D2C02813250498EF00CF7704 /* Extensions (Category) */,
 				D2609EA125048FF000E8E90A /* Components */,
@@ -136,6 +343,9 @@
 		D2609EA125048FF000E8E90A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D2494C542543CCDB000CF37F /* CustomizableCamera */,
+				D225F48D2515C8E900065C5A /* Buttons */,
+				D2D4D8C62515B9700069FC0D /* SelectItemCollection */,
 				D2609EA62504976400E8E90A /* BottomSheet */,
 			);
 			path = Components;
@@ -161,6 +371,27 @@
 			path = "Extensions (Category)";
 			sourceTree = "<group>";
 		};
+		D2C0A8762543C0280015F2D8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D2C0A87E2543C2E70015F2D8 /* AppUtility.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D2D4D8C62515B9700069FC0D /* SelectItemCollection */ = {
+			isa = PBXGroup;
+			children = (
+				D2D4D8C72515B9C20069FC0D /* SelectItemCollectionCell.h */,
+				D2D4D8C82515B9C20069FC0D /* SelectItemCollectionCell.m */,
+				D2D4D8D22515BAF70069FC0D /* SelectItemModel.h */,
+				D2D4D8D32515BAF70069FC0D /* SelectItemModel.m */,
+				D2D4D8DA2515C3150069FC0D /* SelectItemCollection.h */,
+				D2D4D8DB2515C3150069FC0D /* SelectItemCollection.m */,
+			);
+			path = SelectItemCollection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +399,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2609E9B25048FC100E8E90A /* Build configuration list for PBXNativeTarget "MI Component" */;
 			buildPhases = (
+				FDAD17758CE2B90AD8AF9229 /* [CP] Check Pods Manifest.lock */,
 				D2609E7025048FBF00E8E90A /* Sources */,
 				D2609E7125048FBF00E8E90A /* Frameworks */,
 				D2609E7225048FBF00E8E90A /* Resources */,
@@ -185,6 +417,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2609E9E25048FC100E8E90A /* Build configuration list for PBXNativeTarget "MI ComponentTests" */;
 			buildPhases = (
+				D308D6902E754A50FB127798 /* [CP] Check Pods Manifest.lock */,
 				D2609E8E25048FC100E8E90A /* Sources */,
 				D2609E8F25048FC100E8E90A /* Frameworks */,
 				D2609E9025048FC100E8E90A /* Resources */,
@@ -210,9 +443,11 @@
 				TargetAttributes = {
 					D2609E7325048FBF00E8E90A = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1200;
 					};
 					D2609E9125048FC100E8E90A = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1200;
 						TestTargetID = D2609E7325048FBF00E8E90A;
 					};
 				};
@@ -242,8 +477,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2609E8A25048FC100E8E90A /* LaunchScreen.storyboard in Resources */,
+				D2737444251F4DE10066D343 /* CameraViewController.xib in Resources */,
 				D2609E8725048FC100E8E90A /* Assets.xcassets in Resources */,
+				D2494C7A2543CCDB000CF37F /* PaintCodeFile.pcvd in Resources */,
 				D2609E8225048FBF00E8E90A /* Main.storyboard in Resources */,
+				D2494C722543CCDB000CF37F /* Cool Camera Mockup.sketch in Resources */,
+				D2275D8B252AED2F0015F51C /* PreviewImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,24 +490,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2737445251F4DE10066D343 /* CameraViewController.xib in Resources */,
+				D2275D8C252AED2F0015F51C /* PreviewImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D308D6902E754A50FB127798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MI ComponentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDAD17758CE2B90AD8AF9229 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MI Component-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2609E7025048FBF00E8E90A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C0A87F2543C2E70015F2D8 /* AppUtility.swift in Sources */,
+				D2D4D8CA2515B9C20069FC0D /* SelectItemCollectionCell.m in Sources */,
 				D2785D39250632E100C0273F /* BottomSheetManager.m in Sources */,
+				D2494C792543CCDB000CF37F /* CameraFlashButton.m in Sources */,
+				D2D4D8D42515BAF70069FC0D /* SelectItemModel.m in Sources */,
+				D250763C2544041500E261C3 /* UIImage+Filter.m in Sources */,
+				D2494C752543CCDB000CF37F /* CameraFocalReticule.m in Sources */,
+				D26786D8253AB0E9008C08BB /* SecondViewController.swift in Sources */,
+				D2494C712543CCDB000CF37F /* CaptureSessionManager.m in Sources */,
 				D2609E8D25048FC100E8E90A /* main.m in Sources */,
 				D2609E7F25048FBF00E8E90A /* ViewController.m in Sources */,
+				D2494C8F2543CDA6000CF37F /* THCameraViewController.m in Sources */,
+				D2494C732543CCDB000CF37F /* CameraStyleKitClass.m in Sources */,
 				D2609EA42504900A00E8E90A /* BottomSheet.m in Sources */,
+				D25076372544008300E261C3 /* UIImageFilter.swift in Sources */,
+				D2494C772543CCDB000CF37F /* CameraToggleButton.m in Sources */,
+				D2494C702543CCDB000CF37F /* Constants.m in Sources */,
 				D2609E8525048FBF00E8E90A /* MI_Component.xcdatamodeld in Sources */,
 				D2609E7925048FBF00E8E90A /* AppDelegate.m in Sources */,
+				D2494C782543CCDB000CF37F /* LaunchCameraButton.m in Sources */,
+				D2494C742543CCDB000CF37F /* CameraDismissButton.m in Sources */,
 				D2C0281E250499E000CF7704 /* UIView+Additions.m in Sources */,
+				D2275D89252AED2F0015F51C /* THPreviewImageViewController.m in Sources */,
+				D2737442251F4DE10066D343 /* CameraViewController.m in Sources */,
+				D2494C762543CCDB000CF37F /* CameraShutterButton.m in Sources */,
 				D2609E7C25048FBF00E8E90A /* SceneDelegate.m in Sources */,
+				D2D4D8DC2515C3150069FC0D /* SelectItemCollection.m in Sources */,
+				D2494C7B2543CCDB000CF37F /* CameraSessionView.m in Sources */,
+				D225F4902515C8F700065C5A /* VerticalIconTextButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +585,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D4D8DD2515C3150069FC0D /* SelectItemCollection.m in Sources */,
+				D2737443251F4DE10066D343 /* CameraViewController.m in Sources */,
+				D2D4D8CB2515B9C20069FC0D /* SelectItemCollectionCell.m in Sources */,
 				D2785D3A250632E100C0273F /* BottomSheetManager.m in Sources */,
+				D2D4D8D52515BAF70069FC0D /* SelectItemModel.m in Sources */,
 				D2C0281F250499E000CF7704 /* UIView+Additions.m in Sources */,
 				D2609EA52504900A00E8E90A /* BottomSheet.m in Sources */,
 				D2609E9725048FC100E8E90A /* MI_ComponentTests.m in Sources */,
@@ -425,10 +738,16 @@
 		};
 		D2609E9C25048FC100E8E90A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCCA0ABFCBA8F2EABCEEC2C /* Pods-MI Component.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VC54UPHUD4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "MI Component/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -436,16 +755,25 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hieutdt.zalo.MI-Component";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MI Component/ViewControllers/MI Component-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		D2609E9D25048FC100E8E90A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD0183B8A0FFFAFF1ADD0CB /* Pods-MI Component.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VC54UPHUD4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "MI Component/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,14 +781,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hieutdt.zalo.MI-Component";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MI Component/ViewControllers/MI Component-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		D2609E9F25048FC100E8E90A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43309D62A0C722F490561949 /* Pods-MI ComponentTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VC54UPHUD4;
 				INFOPLIST_FILE = "MI ComponentTests/Info.plist";
@@ -472,6 +805,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hieutdt.zalo.MI-ComponentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MI Component/ViewControllers/Camera/MI ComponentTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MI Component.app/MI Component";
 			};
@@ -479,8 +815,11 @@
 		};
 		D2609EA025048FC100E8E90A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8DFFC64C275DA5E5D98737 /* Pods-MI ComponentTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VC54UPHUD4;
 				INFOPLIST_FILE = "MI ComponentTests/Info.plist";
@@ -492,6 +831,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hieutdt.zalo.MI-ComponentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MI Component/ViewControllers/Camera/MI ComponentTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MI Component.app/MI Component";
 			};
